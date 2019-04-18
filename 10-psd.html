@@ -1,0 +1,356 @@
+<html>
+<head>
+<title>10</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+	 body {
+			background-image: url(images/10.png);
+			background-repeat:no-repeat;
+			background-size:contain;
+			overflow-x: hidden;
+			}
+	.list { list-style: none; margin: 0; padding: 0; }
+
+	.list li { margin: 22px; padding: 12px;overflow: hidden;font-size:23px;position: relative;top: 115px; }
+
+	.left-edge { float: left; }
+
+	.right-edge { float: right; }	
+
+	.icon-bar {
+		width: 32%;
+		overflow: auto;
+		float: right;
+	}
+
+	.icon-bar a {
+	  float: left;
+	  padding: 12px 0;
+	  transition: all 0.3s ease;
+	  font-size: 12px;
+	}
+	* {
+     box-sizing: border-box;
+    }
+    
+	.easeAni {	-webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -o-transition: all 0.3s   ease-in; transition: all 0.3s ease-in;}
+  
+	.boxTile {  background: #333;  height: 0;  padding-bottom: 50%;  position: relative;  width: 100%;}
+	.boxTile .square { position: absolute; bottom: 0;  left: 0;  right: 0;  top: 0;}
+	.boxTile .square img {  display: block;  height: 100%;  width: 50%;}
+	.boxTile .info {  bottom: 0;  left: 50%;  overflow: hidden;  padding: 15px;  position: absolute;  right: 0;  top: 0;}
+	.boxTile:hover .info { background: #74be4b;}
+	.boxTile .text {  color: #FFFFFF;  max-height: 100%;  overflow: hidden;  width: 100%;}
+	.boxTile .text h2 {  color: #FFF;  display: inline-block;  font-size: 130%;  margin: 8px 0; padding-right:1em;}
+	.boxTile .text p {  color: #bfd540;  text-transform: uppercase;  white-space: nowrap; font-size: 80%; padding-right:1em;}
+
+
+
+	@media (max-width: 768px) {
+
+	.boxTile .square img {  display: block;  width: 50% !important;  }
+
+	}
+
+	@media (min-width: 768px) {
+
+	.boxTile .square img {  display: block;  width: 50% !important;  }
+
+	}
+
+
+	@media (min-width: 1200px) {
+
+	.boxTile {  padding-bottom: 100%;  }
+	.boxTile .square img {  display: block;  width: 100% !important;  }
+	.boxTile .info {  top: 50%;  background: #000; background: rgba(0, 0, 0, 0.6); filter: alpha(opacity=60);}
+
+	}
+	.sidenav {
+		height: 99%;
+		width: 90px;
+		position: absolute;
+		top: 0px;
+		background-color: white;
+		padding-top: 20px;
+		border-radius: 69%;
+		float: right;
+		left: 234px;
+	}
+
+	.sidenav a {
+	  padding: 6px 6px 6px 32px;
+	  text-decoration: none;
+	  font-size: 12px;
+	  color: #818181;
+	  display: block;
+	}
+
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 0px;}
+	  .sidenav a {font-size: 18px;}
+	}	
+	
+	.box {
+		  width: 187px;
+		  margin: 50px auto;
+		  background: #ff3300;
+		  padding: 20px;
+		  text-align: center;
+		  font-weight: 900;
+		  color: #fff;
+		  font-family: arial;
+		  position: relative;
+		  bottom: 209px;
+		  left: 106px;
+		  z-index: 1;
+		  font-size: 10px;
+		  border-radius: 8%;
+		}
+		
+	.sb2:before {
+		  content: "";
+		  width: 0px;
+		  height: 0px;
+		  position: absolute;
+		  border-left: 10px solid transparent;
+		  border-right: 10px solid #ff3300;
+		  border-top: 10px solid #ff3300;
+		  border-bottom: 10px solid transparent;
+		  left: -19px;
+		  top: 6px;
+		}
+
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <nav class="navbar">
+			  <div class="container-fluid">
+				<ul class="nav navbar-nav" style="position: absolute;right: 39px;">
+				  <li class="active"><a href="#" style="font-size: 23px;"><i class="fa fa-bell"></i></a></li>
+				  <li><a href="#"><img src="images/avtar.png" style="width: 20px;">Johny Wiliamson</a></li>
+				  <li><a href="#" style="font-size: 23px;"><i class="glyphicon glyphicon-chevron-down"></i></a> </li>
+				</ul>
+			  </div>
+     </nav>
+	 
+	 <div id="wrapper" style="right: 87%;position: absolute;font-size: 11px;">
+			  <div id="container">
+				<div><a href="" class="fa fa-search" style="font-size: 20px;position: relative;bottom: 49px;"></a></div>
+			  </div>
+	 </div>
+	 
+	 <ul class="list">
+			<li>
+			  <span class="text"><a href="" class="fa fa-envira"></a></span>
+			</li>
+			
+			<li>
+			  <span class="text"><a href="" class="glyphicon glyphicon-user"></a></span>
+			</li>
+			
+			<li>
+			 <span class="text"><a href="" class="glyphicon glyphicon-cog"></a></a></span>
+			</li>
+			
+			<li>
+			 <span class="text"><a href="" class="glyphicon glyphicon-comment"></a></a></span>
+			</li>
+     </ul>
+	 
+<div class="row">
+  
+			<article class="col-sm-6 col-md-4">
+			<a href="#">
+			   <div class="row" style="width: 52%;float: right;position: relative;bottom: 261px;right: 30px;">
+				  <div class="boxTile" style="background: white;border-radius: 6%;">
+					<div class="square">
+						  <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									  <img src="images/up-arrow.png" style="height: 42px;position: relative;top: 25px;left: 71px;">
+									  <p style="position: relative;top: 31px;left: 71px;font-size: 12px;color: black;text-align: -webkit-center;">DRAG & DROP</p>
+									  <p style="position: relative;top: 27px;left: 71px;font-size: 11px;color: black;text-align: -webkit-center;">Your Files</p>
+									  <p style="position: relative;top: 27px;left: 71px;font-size: 10px;color: black;text-align: -webkit-center;">Or</p>
+									  <input type="text" style="background-color: #ff3300; color: white; cursor: pointer;border-radius: 27px;text-align:-webkit-center;height: 36px;width: 197px;position: relative;top: 18px;" value="Upload">
+						   </div>
+					</div>
+				  </div>
+			  </div>
+			</a>
+			</article>
+
+					
+			<article class="col-sm-6 col-md-4">
+			<a href="#">
+			  <div class="row" style="width: 52%;float: right;position: relative;bottom: 261px;right: 112px;">
+				  <div class="boxTile" style="background: white;border-radius: 6%;">
+					<div class="square">
+						   <p style="color: black;font-size: larger;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <p style="color: black;font-size: smaller;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									  <img src="images/doc.png" style="height: 42px;position: relative;top: 19px;">
+						   </div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/arrow.png" style="height: 42px;position: relative;top: 19px;left: 7px;">
+						</div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/pdf.png" style="height: 42px;position: relative;top: 19px;left: 11px;">
+						</div>
+														
+					</div>
+				  </div>
+				  <div class="sidenav">
+					  <a href="#"><img src="images/share-icon.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/edit.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/color.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/music.png" style="width: 30px;"></a>
+					  <p class="box sb2">
+                           Share this article
+                      </p>
+				  </div>
+			  </div>
+			</a>
+			<p style="position: relative;bottom: 25px;font-size: large;color: #ff3300;left:143px;">Graphicpedia Book</p>
+			</article>
+
+
+					
+
+			<article class="col-sm-6 col-md-4">
+			<a href="#">
+			  <div class="row" style="width: 52%;float: right;position: relative;bottom: 261px;right: 139px;">
+				  <div class="boxTile" style="background: white;border-radius: 6%;">
+					<div class="square">
+						   <p style="color: black;font-size: larger;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <p style="color: black;font-size: smaller;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									  <img src="images/doc.png" style="height: 42px;position: relative;top: 19px;">
+						   </div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/arrow.png" style="height: 42px;position: relative;top: 19px;left: 7px;">
+						</div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/pdf.png" style="height: 42px;position: relative;top: 19px;left: 11px;">
+						</div>
+														
+					</div>
+				  </div>
+				  <div class="sidenav">
+					  <a href="#"><img src="images/share-icon.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/edit.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/color.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/music.png" style="width: 30px;"></a>
+				  </div>
+			  </div>
+			</a>
+			<p style="position: relative;bottom: 25px;;font-size: large;color: #ff3300;left: 113px;">Graphicpedia Book</p>
+			</article>
+
+
+					
+
+			<article class="col-sm-6 col-md-4">
+			<a href="#">
+			  <div class="row" style="width: 52%;float: right;position: relative;bottom: 211px;right: 30px;">
+				  <div class="boxTile" style="background: white;border-radius: 6%;">
+					<div class="square">
+						   <p style="color: black;font-size: larger;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <p style="color: black;font-size: smaller;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									  <img src="images/doc.png" style="height: 42px;position: relative;top: 19px;">
+						   </div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/arrow.png" style="height: 42px;position: relative;top: 19px;left: 7px;">
+						</div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/pdf.png" style="height: 42px;position: relative;top: 19px;left: 11px;">
+						</div>
+					</div>
+				  </div>
+				  <div class="sidenav">
+					  <a href="#"><img src="images/share-icon.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/edit.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/color.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/music.png" style="width: 30px;"></a>
+				  </div>
+			  </div>
+			</a>
+			<p style="position: relative;top: 22px;font-size: large;color: #ff3300;left: 212px;">Graphicpedia Book</p>
+			</article>
+
+
+
+					
+			<article class="col-sm-6 col-md-4">
+			<a href="#">
+			  <div class="row" style="width: 52%;float: right;position: relative;bottom: 211px;right: 112px;">
+				  <div class="boxTile" style="background: white;border-radius: 6%;">
+					<div class="square">
+						   <p style="color: black;font-size: larger;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <p style="color: black;font-size: smaller;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									  <img src="images/doc.png" style="height: 42px;position: relative;top: 19px;">
+						   </div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/arrow.png" style="height: 42px;position: relative;top: 19px;left: 7px;">
+						</div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/pdf.png" style="height: 42px;position: relative;top: 19px;left: 11px;">
+						</div>
+														
+					</div>
+				  </div>
+				  <div class="sidenav">
+					  <a href="#"><img src="images/share-icon.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/edit.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/color.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/music.png" style="width: 30px;"></a>
+				  </div>
+			  </div>
+			</a>
+			<p style="position: relative;top: 22px;font-size: large;color: #ff3300;left: 135px;">Graphicpedia Book</p>
+			</article>
+
+
+					
+
+			<article class="col-sm-6 col-md-4">
+			<a href="#">
+			  <div class="row" style="width: 52%;float: right;position: relative;bottom: 211px;right: 139px;">
+				  <div class="boxTile" style="background: white;border-radius: 6%;">
+					<div class="square">
+						   <p style="color: black;font-size: larger;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <p style="color: black;font-size: smaller;margin: 5px;">Lorem ipsum dolor sit amet,no alterum utamur democritum pro,at decore salutandi vis.</p>
+						   <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									  <img src="images/doc.png" style="height: 42px;position: relative;top: 19px;">
+						   </div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/arrow.png" style="height: 42px;position: relative;top: 19px;left: 7px;">
+						</div>
+						<div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+									 <img src="images/pdf.png" style="height: 42px;position: relative;top: 19px;left: 11px;">
+						</div>
+														
+					</div>
+				  </div>
+				  <div class="sidenav">
+					  <a href="#"><img src="images/share-icon.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/edit.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/color.png" style="width: 30px;"></a>
+					  <a href="#"><img src="images/music.png" style="width: 30px;"></a>
+				  </div>
+			  </div>
+			</a>
+			<p style="position: relative;top: 22px;font-size: large;color: #ff3300;left: 119px;">Graphicpedia Book</p>
+			</article>
+</div>
+</body>
+</html>

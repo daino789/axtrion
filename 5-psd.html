@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>5</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+	 body {
+			background-image: url(images/5.png);
+			background-repeat:no-repeat;
+			background-size:contain;
+			overflow-x: hidden;
+			}
+	.list { list-style: none; margin: 0; padding: 0; }
+
+	.list li { margin: 22px; padding: 12px;overflow: hidden;font-size:23px;position: relative;top: 115px; }
+
+	.left-edge { float: left; }
+
+	.right-edge { float: right; }	
+
+	.icon-bar {
+		width: 32%;
+		overflow: auto;
+		float: right;
+	}
+
+	.icon-bar a {
+	  float: left;
+	  padding: 12px 0;
+	  transition: all 0.3s ease;
+	  font-size: 12px;
+	}
+	.files{ 
+		text-align: center;
+		margin: 0;
+		width: 100% !important;
+		height:250px;
+		overflow:hidden;
+	}
+
+	.files input {
+		width: 100% !important;
+		height:100px;
+		border:none;
+		padding: 120px 0 0 0;
+		background:transparent;
+		display: inline-block;
+		text-align:center;
+	}
+
+
+	.files:after {
+		pointer-events: none;
+		position: absolute;
+		top: 40px;
+		left: 0;
+		width: 90px;
+		right: 0;
+		height: 90px;
+		content: "";
+		background-image: url(images/grey-upload.png);
+		display: block;
+		margin: 0 auto;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.files:before {
+	  bottom:55px;;
+	  left:0;
+	  right:0;
+	  display:block;
+	  text-align:center;
+	  color:#0142fe;
+	  font-weight:bold;
+	}
+
+	.upload-btn {
+		color: white;
+		width: 100%;
+		background: red;
+		margin: 3px;
+		margin-top: 25px;
+		border-radius: 30px;
+		padding: 20px 50px;
+	}
+</style>
+</head>
+<body>
+   <nav class="navbar">
+			  <div class="container-fluid">
+				<ul class="nav navbar-nav" style="position: absolute;right: 39px;">
+				  <li class="active"><a href="#" style="font-size: 23px;"><i class="fa fa-bell"></i></a></li>
+				  <li><a href="#"><img src="images/avtar.png" style="width: 20px;">Johny Wiliamson</a></li>
+				  <li><a href="#" style="font-size: 23px;"><i class="glyphicon glyphicon-chevron-down"></i></a> </li>
+				</ul>
+			  </div>
+     </nav>
+	 
+	 <div id="wrapper" style="right: 87%;position: absolute;font-size: 11px;">
+			  <div id="container">
+				<div><a href="" class="fa fa-search" style="font-size: 20px;position: relative;bottom: 49px;"></a></div>
+			  </div>
+	 </div>
+	 
+	 <ul class="list">
+			<li>
+			  <span class="text"><a href="" class="fa fa-envira"></a></span>
+			</li>
+			
+			<li>
+			  <span class="text"><a href="" class="glyphicon glyphicon-user"></a></span>
+			</li>
+			
+			<li>
+			 <span class="text"><a href="" class="glyphicon glyphicon-cog"></a></a></span>
+			</li>
+			
+			<li>
+			 <span class="text"><a href="" class="glyphicon glyphicon-comment"></a></a></span>
+			</li>
+     </ul>
+	 
+	
+	<div style="bottom: 200px;margin-left: 409px;position: relative;">
+		  <div class="col-md-6">
+			  <form method="post" action="#" id="#">
+				  <div class="form-group files">
+						<input type="file" class="form-control" multiple="">
+						<span style="font-weight: bold;font-size: 35px;">DRAG & DROP</span>
+						<p style="font-size: 20px;"> Your files.</p>
+						<div class="text-center">- OR -</div>
+					
+				  </div>
+				   <div>
+						  <div class="row">
+							<div>
+								<button class="btn upload-btn">Upload</button>
+								<p style="text-align:center;color:gray;">files supporting .doc, .docx, .pdf, .gif</p>
+							</div>
+						  </div>
+				  </div>
+			  </form>
+		  </div>
+	</div>
+    
+</body>
+</html>
